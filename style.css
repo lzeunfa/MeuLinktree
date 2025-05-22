@@ -23,8 +23,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    padding-bottom: 200px;
 }
 
 /*cabeçalho*/
@@ -38,7 +36,7 @@ header{
     display: flex;
     justify-content: center;
 
-    animation: float 2s infinite ease-in-out;
+    animation: float 3s infinite ease-in-out;
 }
 
 #fotoPerfil{
@@ -53,7 +51,7 @@ header{
 
     text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.658);
 
-    animation: float 2s infinite ease-in-out;
+    animation: float 3s infinite ease-in-out;
 }
 /*fim do cabeçalho/
 
