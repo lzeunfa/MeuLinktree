@@ -8,44 +8,103 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header><!--Area com a img de perfil e nome-->
+    <!--inicio topo da pagina-->
+    <header>
 
-        <div id="conteinerPerfil">
-            <img id="fotoPerfil" src="img/ftperfil.jpeg" alt="fotoperfil">
+        <!--container que tem a img de fundo do topo-->
+        <div id="containerImgTopo">
+
         </div>
 
-        <div id="nome">
-            <p>dev_lzeunfa</p>
+        <!--container pra imagem perfil e textos-->
+        <div id="containerTituloTopo">
+            <img id="imgEliseu" src="img/ELISEU.png" alt="imagem-eliseu">
+
+            <div id="containerTextoTopo">
+                <h2>Eliseu Nóbrega</h2>
+                <p>Desenvolvedor Web</p>
+                <a id="linkedinIcone" href="https://www.linkedin.com/in/eliseu-n%C3%B3brega-ferraz-de-azevedo-37a397341/" 
+                target="_blank"><img src="img/linkedinIcone.png" alt="icone-linkedin" width="40px"></a>
+            </div>
+
         </div>
 
-    </heeader>
+    </header>
+    <!--/ topo da pagina-->
 
-    <main><!--Area com os botoes-->
+    <!--inicio do main  com os acessos-->
+    <main>
 
-        <div id="conteinerButton"><!--conteiner dos botoes-->
+        <div id="containerMain">
 
-            <button>
-                <img src="img/iconegithub.png" alt="icone github" width="40px">
-                <a href="https://github.com/lzeunfa" target="_blank">Github</a>
-            </button>
+            <a class="linkAcessos" href="https://github.com/lzeunfa" target="_blank">
 
-            <button>
-                <img src="img/iconeebook.png" alt="iconeebook" width="40px">
-                <a href="https://go.hotmart.com/L99400331Q?dp=1" target="_blank">Ebook</a>
-            </button>
+                <div class="acessos">
+                    <div class="containerImgLinks">
+                        <img class="imgLinks" src="img/iconegitbranco.png" alt="icone-github" width="35px">
+                    </div>
 
-            <button>
-                <img src="img/iconetiktok.png" alt="iconetiktok" width="40px">
-                <a href="https://www.tiktok.com/@_dev_lzeunfa" target="_blank">TikTok</a>
-            </button>
+                    <div class="containerLegendaLinks">
+                        <p>Meu GitHub</p>
+                    </div>
+                    
+                </div>
 
-            <button>
-                <img src="img/iconecurriculo.png" alt="iconecurriculo" width="40px">
-                <a href="currículo att.0.pdf" download="Curriculo_Eliseu" target="_blank">Baixar currículo</a>
-            </button>
+            </a>
+
+            <a class="linkAcessos" 
+            href="https://hotmart.com/pt-br/marketplace/produtos/comece-pelo-que-importa-guia-pratico-para-aprender-programacao/L99400331Q" 
+            target="_blank">
+
+                <div class="acessos">
+                    <div class="containerImgLinks">
+                        <img class="imgLinks" src="img/iconeebook.png" alt="icone-github" width="40px">
+                    </div>
+
+                    <div class="containerLegendaLinks">
+                        <p>Meu e-book</p>
+                    </div>
+                    
+                </div>
+
+            </a>
+
+            <a class="linkAcessos" href="https://www.tiktok.com/@lzeunfa.dev?_t=ZM-8xv9Hy2DxXZ&_r=1" target="_blank">
+
+                <div class="acessos">
+                    <div class="containerImgLinks">
+                        <img class="imgLinks" src="img/tiktok-round-white-icon.webp" alt="icone-github" width="35px">
+                    </div>
+
+                    <div class="containerLegendaLinks">
+                        <p>Meu TikTok</p>
+                    </div>
+                    
+                </div>
+
+            </a>
+
+            <a class="linkAcessos" href="Currículo.att2.pdf" download="Currículo_Eliseu" target="_blank">
+
+                <div class="acessos">
+                    <div class="containerImgLinks">
+                        <img class="imgLinks" src="img/iconecurriculo.webp" alt="icone-github" width="35px">
+                    </div>
+
+                    <div class="containerLegendaLinks">
+                        <p>Meu Currículo</p>
+                    </div>
+                    
+                </div>
+
+            </a>
+
+            
 
         </div>
 
     </main>
+    <!--/ main-->
+
 </body>
 </html>
