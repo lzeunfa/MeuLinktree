@@ -16,4 +16,6 @@
 **Tecnologias utilizadas**
 * Apenas HTMl e CSS.
 ***
+<img width="150" height="613" alt="image" src="https://github.com/user-attachments/assets/01c859e0-641b-4bdf-a252-9c06392a4d17" />
+
 **[Acessar linktree](https://lzeunfa.github.io/MeuLinktree/Linktree.html)**
